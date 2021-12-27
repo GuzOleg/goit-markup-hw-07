@@ -1,0 +1,28 @@
+.wedoing-section {
+  padding-bottom: 95px;
+}
+.wedoing-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wedoing-item {
+  position: relative;
+}
+
+.wedoing-item-head {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px;
+  color: var(--item-off);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.88;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
