@@ -20,13 +20,12 @@
   color: var(--title-color);
   border-bottom: 1px solid var(--head-line);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--item-on);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-
-/* .navig-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  align-items: center;
-} */
 
 .navig-item:not(:last-child) {
   margin-right: 50px;
@@ -40,28 +39,21 @@
   position: relative;
 }
 
-.navig-link.active::after {
-  content: '';
-  width: 100%;
-  height: 4px;
-  background-color: var(--item-on);
-  font-style: var(--item-on);
-  position: absolute;
-  /* display: block; */
-  left: 0;
-  bottom: -1px;
-  border-radius: 2px;
-}
-
 .active {
   color: var(--item-on);
+  .navig-link&::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: var(--item-on);
+    font-style: var(--item-on);
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+  }
 }
 
-.navig:hover,
-.navig:focus {
-  color: var(--item-on);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .contacts {
   color: var(--text-main);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -74,11 +66,10 @@
 .ico-contact {
   margin-right: 10px;
   align-items: center;
-}
-
-.contacts:hover,
-.contacts:focus > .ico-contact {
-  fill: var(--item-on);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .contacts:hover,
+  .contacts:focus > & {
+    fill: var(--item-on);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }

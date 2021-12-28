@@ -1,16 +1,15 @@
 .subscribe-footer {
   margin-left: auto;
-}
-
-.subscribe-footer > h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 0.88;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--item-off);
-  margin-bottom: 20px;
-  margin-top: 12px;
+  & > h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.88;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--item-off);
+    margin-bottom: 20px;
+    margin-top: 12px;
+  }
 }
 
 .subscribe-input {
@@ -50,11 +49,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.subscribe-bt:hover {
-  background-color: #188ce8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    background-color: #188ce8;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .subscribe-bt-ico {

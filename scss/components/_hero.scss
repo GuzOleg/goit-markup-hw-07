@@ -8,6 +8,7 @@
   color: var(--item-off);
   margin-bottom: 30px;
 }
+
 .bg-hero {
   background: var(--section-bg);
   max-width: 1600px;
@@ -26,6 +27,7 @@
   padding-top: 200px;
   text-align: center;
 }
+
 .button-hero {
   font-family: inherit;
   font-weight: 700;
@@ -40,10 +42,9 @@
   min-height: 50px;
   border: 1px solid var(--item-on);
   border-radius: 4px;
-}
-
-.button-hero:hover {
-  background-color: #188ce8;
+  &:hover {
+    background-color: #188ce8;
+  }
 }
 
 .hero {
