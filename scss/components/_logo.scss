@@ -7,10 +7,9 @@
   letter-spacing: 0.03em;
   color: var(--title-color);
   margin-right: 95px;
-}
-
-.logo:hover {
-  color: var(--title-color);
+  &:hover {
+    color: var(--title-color);
+  }
 }
 
 .logo span {

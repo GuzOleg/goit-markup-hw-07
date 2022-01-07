@@ -1,15 +1,4 @@
-.title-hero {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--item-off);
-  margin-bottom: 30px;
-}
-
-.bg-hero {
+.hero {
   background: var(--section-bg);
   max-width: 1600px;
   height: 600px;
@@ -28,25 +17,17 @@
   text-align: center;
 }
 
-.button-hero {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--item-off);
-  background-color: var(--item-on);
-  cursor: pointer;
-  min-width: 200px;
-  min-height: 50px;
-  border: 1px solid var(--item-on);
-  border-radius: 4px;
-  &:hover {
-    background-color: #188ce8;
-  }
+  margin-bottom: 30px;
 }
 
-.hero {
+.hero__content {
   display: flexbox;
 }

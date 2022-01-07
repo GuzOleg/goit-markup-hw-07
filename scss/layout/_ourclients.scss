@@ -2,12 +2,13 @@
   padding-bottom: 95px;
   padding-top: 95px;
 }
-.client-box {
+
+.client-section__box {
   display: flex;
   justify-content: space-between;
 }
 
-.client-link {
+.client-section__link {
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-ico);

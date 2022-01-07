@@ -29,3 +29,31 @@ section {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.main-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--item-off);
+  background-color: var(--item-on);
+  cursor: pointer;
+  min-width: 200px;
+  min-height: 50px;
+  border: 1px solid var(--item-on);
+  border-radius: 4px;
+  &:hover {
+    background-color: #188ce8;
+  }
+}
+
+.backdrop {
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.418);
+  position: fixed;
+  top: 0;
+  transition: opacity 250ms, translate 250ms, visibility 250ms;
+}

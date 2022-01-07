@@ -1,4 +1,4 @@
-.subscribe-footer {
+.subscribe {
   margin-left: auto;
   & > h3 {
     font-weight: 700;
@@ -12,7 +12,7 @@
   }
 }
 
-.subscribe-input {
+.subscribe__input {
   border: none;
   width: 358px;
   height: 50px;
@@ -30,7 +30,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-bt {
+.subscribe__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -55,11 +55,11 @@
   }
 }
 
-.subscribe-bt-ico {
+.subscribe__btn-ico {
   fill: var(--item-off);
   margin-left: 10px;
 }
 
-.form-subscribe {
+.subscribe__form {
   display: flex;
 }

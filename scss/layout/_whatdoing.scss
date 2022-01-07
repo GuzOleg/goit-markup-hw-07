@@ -1,16 +1,17 @@
-.wedoing-section {
+.wedoing {
   padding-bottom: 95px;
 }
-.wedoing-box {
+
+.wedoing__box {
   display: flex;
   justify-content: space-between;
 }
 
-.wedoing-item {
+.wedoing__item {
   position: relative;
 }
 
-.wedoing-item-head {
+.wedoing__head {
   position: absolute;
   bottom: 4px;
   left: 0;
